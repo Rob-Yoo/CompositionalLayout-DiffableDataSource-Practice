@@ -14,6 +14,7 @@
 		CC02268A2C4B99BC0012F451 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CC0226892C4B99BC0012F451 /* Base */; };
 		CCA828C92C4B9B16006389BC /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CCA828C82C4B9B16006389BC /* SnapKit */; };
 		CCA828CC2C4B9B26006389BC /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = CCA828CB2C4B9B26006389BC /* Then */; };
+		CCDFA5972C4CF14700B067A9 /* TravelTalkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDFA5962C4CF14700B067A9 /* TravelTalkListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CC0226862C4B99BC0012F451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC0226892C4B99BC0012F451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC02268B2C4B99BC0012F451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDFA5962C4CF14700B067A9 /* TravelTalkListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTalkListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		CCA828C52C4B9AD4006389BC /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				CCDFA5952C4CF12F00B067A9 /* TravelTalk */,
 				CCDFA5942C4BA78D00B067A9 /* SettingList */,
 				CCA828C62C4B9ADC006389BC /* App */,
 			);
@@ -98,6 +101,14 @@
 				CC0226812C4B99BB0012F451 /* SettigListViewController.swift */,
 			);
 			path = SettingList;
+			sourceTree = "<group>";
+		};
+		CCDFA5952C4CF12F00B067A9 /* TravelTalk */ = {
+			isa = PBXGroup;
+			children = (
+				CCDFA5962C4CF14700B067A9 /* TravelTalkListViewController.swift */,
+			);
+			path = TravelTalk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 			files = (
 				CC0226822C4B99BB0012F451 /* SettigListViewController.swift in Sources */,
 				CC02267E2C4B99BB0012F451 /* AppDelegate.swift in Sources */,
+				CCDFA5972C4CF14700B067A9 /* TravelTalkListViewController.swift in Sources */,
 				CC0226802C4B99BB0012F451 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
